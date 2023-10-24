@@ -16,3 +16,6 @@ start part 1.2 debugging on Home Controller.cs file using breakpoint on index an
 start part 1.3 bootstrap......
 go bootstrapwatch.com and download theme and put this that downloaded theme boostrap.css in wwwroot\lib\bootstrap\dist\css 
 and rename the exist bootstrap.css file ...........
+
+1245
+after break.... work on my laptop and remove the comment on ssl port in launchsetting.json
