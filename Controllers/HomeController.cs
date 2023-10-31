@@ -1,4 +1,4 @@
-﻿using GurmanBookStore.Models;
+﻿using GurmanBookStore.Models.ViewModels;  //modify the reference
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
