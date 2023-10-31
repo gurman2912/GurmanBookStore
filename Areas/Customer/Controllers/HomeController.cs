@@ -1,4 +1,4 @@
-﻿using GurmanBookStore.Models.ViewModels;  //modify the reference
+﻿using GurmanBookStore.Models;  //modify the reference
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
@@ -32,7 +32,7 @@ namespace GurmanBookStore.Area.Customer.Controllers
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View();
         }
     }
 }
