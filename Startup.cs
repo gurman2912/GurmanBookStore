@@ -1,4 +1,4 @@
-using GurmanBookStore.Data;
+using GurmanBookStore.DataAccess.Data; //change using statement
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
