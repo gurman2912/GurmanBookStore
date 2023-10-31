@@ -103,3 +103,6 @@ add area name as 'Customer' in main project and change the route in Startup.cs f
 
 2154
 move HomeController.cs file into Areas>Customer>Controller and delete Data and Models folder.......
+
+2200
+Edit the HomeController.cs to explicitly is in the Customer Area......
